@@ -1,0 +1,23 @@
+/**
+Theme Name: Yellow
+Author: Olga
+*/
+
+.page-footer,.yel {
+  background-color: #eeca00; }
+
+  .card-intro .card-body {
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important; }
+
+.navbar-brand img {
+  height: 20px; }
+
+.pagination .page-item.active .page-link {
+  background-color: #f7d600; }
+
+  .navbar.navbar-light .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+     background-color: transparent;
+    border-bottom: 1px solid #f7d600;
+}
+
