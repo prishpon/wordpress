@@ -7,15 +7,13 @@ Template Post Type:video
 get_header();
 ?>
 <main>
-
 	 <?php  if( is_single( $post ) ){ ?>
-
 		<div class="container">
         <div class="card-body white-text text-center yel mb-2 mt-2 px-5 pt-5 pb-4">
             <div class="row wow fadeIn d-flex justify-content-center yel pt-5 pb-4">
                 <div class="col-md-6">
 					<h1 class="font-weight-bold mb-4"><?php the_title(); ?></h1>
-					<h3><?php echo get_post_meta(get_the_ID(), 'ganre', true); ?> </h3>
+					<h2><?php echo get_post_meta(get_the_ID(), 'ganre', true); ?> </h2>
 	                <h3><?php echo get_post_meta(get_the_ID(), 'order', true); ?> </h3>
                 </div>
             </div>
