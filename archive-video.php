@@ -14,7 +14,7 @@ get_header();
                 <div class="col-md-6">
 					<h1 class="font-weight-bold mb-4"><?php the_title(); ?></h1>
 					<h2><?php echo get_post_meta(get_the_ID(), 'ganre', true); ?> </h2>
-	                <h6><?php echo get_post_meta(get_the_ID(), 'order', true); ?> </h6>
+	                <h3><?php echo get_post_meta(get_the_ID(), 'order', true); ?> </h3>
                 </div>
             </div>
     </div>
